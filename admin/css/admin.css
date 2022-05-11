@@ -1,0 +1,129 @@
+header {
+  background: #01474a;
+}
+
+.admin-wrapper {
+  display: flex;
+  height: calc(100% - 66px);
+}
+
+.admin-wrapper .left-sidebar {
+  flex: 2;
+  height: 100%;
+  background: #234a57;
+}
+
+/* ul .log{
+  display: none;
+} */
+
+.admin-wrapper .left-sidebar ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: aliceblue;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+  padding: 18px;
+  display: block;
+  border-bottom: 1px solid #004044;
+}
+.admin-wrapper .left-sidebar .log{
+  display: none;
+  
+}
+a.btn.btn-big:hover{
+
+  border-radius:38px;
+  color: red;
+  background-color: 
+  #06f4fd;
+
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+/* background-color: green; */
+background-color: 
+  #06f4fd;
+  /* background: #004044; */
+}
+
+.admin-wrapper .admin-content {
+  flex: 8;
+  height: 100%;
+  padding: 40px 100px 100px;
+  overflow-y: scroll;
+}
+.admin-content .page-title {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.1rem;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.edit {
+  color: green;
+}
+
+.delete {
+  color: red;
+}
+
+.publish {
+  color: blue;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+  text-decoration: underline;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+
+
+
+/* @media(max-width:800px){
+  .admin-wrapper .left-sidebar .log{
+    display: block;
+    
+  }
+} */
+
+
+@media(max-width:600px){
+  .admin-wrapper .left-sidebar ul li a {
+    padding: 9px;
+    font-size: 13px;
+   
+}
+.admin-wrapper .admin-content {
+ 
+  padding: 40px 1px 100px;
+}
+th, td {
+  font-size: 14px;
+}
+.admin-content {
+  font-size: 10px;
+}
+.btn-big {
+  padding: 0.3rem 0.3rem;
+}
+
+}

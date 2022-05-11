@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --violet:#6c5ce7;
+  --pink:#FC427B;
+  --gradient:linear-gradient(90deg, var(--violet), var(--pink));
+}
+
+*{
+  font-family: 'Nunito', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s ease-out;
+}
+
+html{
+  font-size: 90%;
+ 
+}
+
+.container{
+  background:#fff;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
+}
+
+.heading{
+  color:
+  #4a667b;
+  background:var(--gradient);
+  -webkit-background-clip: text;
+  background-clip: text;
+  padding:0 1rem;
+  padding-top: 2.5rem;
+  text-align: center;
+  font-size: 4rem;
+  text-transform: uppercase;
+  margin-top: 47px;
+}
+
+
+.developer{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.developer .box{
+  flex:1 1 15rem;
+  border:.1rem solid rgba(0,0,0,.1);
+  border-radius:.5rem;
+  padding:1.0rem;
+  text-align: center;
+}
+
+.developer .box img{
+  height: 10rem;
+  width:10rem;
+  margin:.5rem 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+.developer .box img:hover{
+  border: 4px solid red;}
+
+  .developer .box h3{
+  color:var(--violet);
+  font-size: 2.5rem;
+}
+
+.developer .box span{
+  color:var(--pink);
+  font-size: 2rem;
+}
+
+.developer .box p{
+  color:#666;
+  font-size: 1.5rem;
+  padding:1rem 0;
+}
+
+.developer .box .share a{
+  height:4rem;
+  width:4rem;
+  line-height: 4rem;
+  font-size: 2rem;
+  background:var(--pink);
+  border-radius: .5rem;
+  margin:.3rem;
+  color:#fff;
+}
+
+.developer .box .share a:hover{
+  background:var(--violet);
+}
+
+
+
+
+
+
+/* media queries  */
+
+@media (max-width:991px){
+
+  html{
+    font-size: 55%;
+  }
+
+  body{
+    padding:1.5rem;
+  }
+
+  
+
+  section{
+    padding:2rem;
+  }
+
+}
+
+@media (max-width:768px){
+
+ 
+
+  
+@media (max-width:400px){
+
+  html{
+    font-size: 50%;
+  }
+
+} 
